@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Isaac Ayalomhe</title>
+    <link rel="stylesheet" href="Portfolio style.css">
+    <link rel="stylesheet" href="Portfolio script.js">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+     <!-- Hero Section -->
+     <section id="home" class="Hero background">
+        <!-- <img src="/asset/home screen.jpg" alt="" srcset=""> -->
+        <div class="hero-inner">
+                <div class="Home">
+                    <h1> Welcome to my Portfoilo </h1>
+                    <p> Hi, i am Isaac, feel free to take a look around my works</p>
+                    <a href="#projects" class="btn">Go ahead</a>
+                </div>
+        </div>
+                   
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Me</h2> 
+            <img src="./IMG-20240515-WA0027.jpg" alt="" width="100px" height="200px">
+            <p>Name: Ayalomhe Isaac<br>Field: Web Development and data management <br>Email: cussisaac007@gmail.com<br>Phone: 08105525668</p></p><p>Dynamic front-end developer with a passion for creating engaging user experiences. Skilled in HTML, CSS, JavaScript, and responsive design.</p>
+        </div>
+    </section>
+
+   <!-- Project section -->
+   <section id="projects" class="projects">
+    <div class="projects">
+        <h1>My Projects</h1>
+        <h3> Here are some examples of how my skill can be put to good use;</h3>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="heading">
+                        <a href="./mini calculator.png"><img src="./mini calculator.png" alt="" width="200px" height="100px"></a>
+                    </div>
+                    <div class="links">
+                        <h3>Mini Calendar</h3>
+                        <a href="./mc.html">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="heading">
+                        <a href="./random quote.png"><img src="./random quote.png" alt="" width="200px" height="100px"></a>
+                    </div>
+                    <div class="links">
+                        <h3>Random Quote</h3>
+                        <a href="./rq.html">Visit</a>
+                    </div>
+                </div>
+            </div>
+               
+            <div class="column">
+                <div class="card">
+                    <div class="heading">
+                        <a href="./stopwatch.png"><img src="./stopwatch.png" alt="" width="200px" height="100px"></a>
+                    </div>
+                    <div class="links">
+                        <h3>stopwatch</h3>
+                        <a href="./stwc.html">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="heading">
+                        <a href="./english dictionary.png"><img src="./english dictionary.png" alt="" width="200px" height="100px"></a>
+                    </div>
+                    <div class="links">
+                        <h3>stopwatch</h3>
+                        <a href="./ed.html">Visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="skills" class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skill-category">
+            <h3>HTML</h3>
+            <p>90%</p>
+            <progress value="90" max="100">HTML/CSS/JavaScript</progress>
+        </div>
+        <div class="skill-category">
+
+            <h3>CSS</h3>
+            <p>75%</p>
+            <progress value="75" max="100">Node.js</progress>
+        </div>
+        <div class="skill-category">
+            <h3>JavaScript</h3>
+            <p>20%</p>
+            <progress value="20" max="100">UI/UX Design</progress>
+        </div>
+    </section>
+
+    <!-- Experience section -->
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <p>New Horizons ICT Resource Center - Frontend Developer, 2023-2024</p>
+        <p>Freelance Web Developer, 2023-Present</p>
+    </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="contact">
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form id="contactForm" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        </div>
+</section>
+
+    <footer>
+        <p>&copy; 2024 by Isaac Ayalomhe. All rights reserved. | Today's Date: <span id="date"></span> </p>
+    </footer>
+</body>
+</html>
